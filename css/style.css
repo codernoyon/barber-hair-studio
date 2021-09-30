@@ -151,7 +151,7 @@ img{
 
 @media  screen and (max-width: 770px) {
     .banner-text h1{
-        font-size: 44px;
+        font-size: 45px;
     }
     .banner-text p{
         font-size: 15px;
@@ -159,7 +159,7 @@ img{
     
 
     .banner-btn{
-        margin: 130px auto 0;
+        margin: 150px auto 0;
     }
     .banner-btn a{
         width: 120px;
