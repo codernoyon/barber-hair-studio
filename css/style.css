@@ -3,7 +3,9 @@ Google fonts
 ======================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600;700&display=swap');
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0px;
@@ -154,7 +156,7 @@ section{
 
 
 
-/*  Features  */
+/*  Feature  */
 
 .titleText{
     text-align: center;
@@ -186,6 +188,73 @@ section{
 
 }
 
+.featureBox{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.featureItems{
+    flex-basis: 50%;
+}
+
+.feature{
+    margin-bottom: 20px;
+}
+
+.feature h1{
+    color: #009688;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.featuresImg{
+    flex-basis: 32%;
+
+}
+
+
+.featuresImg img{
+    border-radius: 10px;
+}
+
+
+.featuresDescription{
+    display: flex;
+    align-items: center;
+}
+
+.featureIcon i{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    color: #009688;
+    border: 1px solid #009688;
+    border-radius: 8px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+
+.featureText p{
+    padding: 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Mobile Friendly Layout */
@@ -208,7 +277,21 @@ section{
         margin: 20px auto;
 
     }
+
+    /* feature section */
     
+    .titleText h1{
+        font-size: 30px;
+    }
     
+
+    .featureItems{
+        flex-basis: 100%;
+    }
+
+    .featuresImg{
+        flex-basis: 100%;
+    
+    }
     
 }
