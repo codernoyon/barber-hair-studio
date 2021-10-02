@@ -28,6 +28,12 @@ img{
     width: 100%;
 }
 
+section{
+    padding: 70px 0px;
+}
+
+/* Banner */
+
 #banner{
     background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(../images/banner.jpg);
     height: 100vh;
@@ -100,6 +106,8 @@ img{
 }
 
 
+/* Side Navbar */
+
 #sideNav{
     width: 250px;
     height: 100vh;
@@ -145,6 +153,38 @@ img{
 
 
 
+/*  Features  */
+
+.titleText{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.titleText h1{
+    font-size: 40px;
+}
+
+.titleText p{
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.titleText p::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#009688, rgba(255, 255, 255, 0.39));
+    left: 0px;
+    top: -25px;
+    border-radius: 35px 0px 35px 0px;
+    transform: rotate(10deg);
+
+}
+
 
 
 /* Mobile Friendly Layout */
@@ -159,10 +199,12 @@ img{
     
 
     .banner-btn{
-        margin: 150px auto 0;
+        margin: 130px auto 0;
     }
     .banner-btn a{
         width: 120px;
+        display: block;
+        margin: 10px auto;
 
     }
     
