@@ -264,6 +264,7 @@ section{
     margin-bottom: 15px;
     cursor: pointer;
 
+
 }
 
 .serviceImage img{
@@ -311,9 +312,11 @@ section{
 }
 
 .serviceInfo hr{
-    color: #fff;
+    background: #fff;
     width: 60%;
     margin: 10px auto;
+    border: 0;
+    height: 2px;
 }
 
 .serviceInfo p{
@@ -343,16 +346,26 @@ section{
 
     }
 
-    /* feature section */
-    
+
+    /* all section title text  */
     .titleText h1{
         font-size: 30px;
     }
     
+    /* feature section */
 
     .featureItems{
         flex-basis: 100%;
     }
+
+    .feature h1{
+        font-size: 20px;
+    }
+
+    .featureText p{
+        font-size: 15px;
+    }
+    
 
     .featuresImg{
         flex-basis: 100%;
@@ -362,6 +375,7 @@ section{
     /* secvice section */
     .serviceItem{
         flex-basis: 100%;
+        cursor: initial;
     }
 
 
