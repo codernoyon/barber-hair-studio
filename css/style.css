@@ -475,7 +475,9 @@ section{
     font-size: 14px;
 }
 
-/* Mobile Friendly Layout */
+
+
+/* Mobile Responsive Layout */
 
 @media  screen and (max-width: 770px) {
     .banner-text h1{
@@ -545,8 +547,5 @@ section{
     .footerLeft, .footerRight{
         margin-bottom: 40px;
     }
-
-
-
 
 }
